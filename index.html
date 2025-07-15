@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jenkins Features</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+        header { background: #232f3e; color: #fff; padding: 20px 0; text-align: center; }
+        main { max-width: 900px; margin: 30px auto; background: #fff; padding: 30px; border-radius: 8px; }
+        h1, h2 { color: #204080; }
+        ul { line-height: 1.8; }
+        .feature-section { margin-bottom: 30px; display: flex; align-items: flex-start; }
+        .feature-icon {
+            flex-shrink: 0;
+            width: 48px;
+            height: 48px;
+            margin-right: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .feature-content {
+            flex: 1;
+        }
+        @media (max-width: 600px) {
+            main { padding: 10px; }
+            .feature-section { flex-direction: column; align-items: stretch; }
+            .feature-icon { margin-bottom: 10px; margin-right: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jenkins: Key Features</h1>
+        <p>The leading open-source automation server</p>
+    </header>
+    <main>
+        <section class="feature-section">
+            <div class="feature-icon">
+                <!-- Installation Icon -->
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#204080"><path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm1 15h-2v-2H8l4-4 4 4h-3zm-1-8a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/></svg>
+            </div>
+            <div class="feature-content">
+                <h2>1. Easy Installation & Configuration</h2>
+                <ul>
+                    <li>Simple installation on Windows, macOS, Linux, and Docker.</li>
+                    <li>Web-based setup wizard and configuration interface.</li>
+                    <li>Extensive documentation and community support.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="feature-icon">
+                <!-- Plugin Icon -->
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#204080"><path d="M19 7V3h-2v4h-2V3h-2v4h-2V3H7v4H5a2 2 0 0 0-2 2v2h18V9a2 2 0 0 0-2-2zm-7 8v4h2v-4h2v4h2v-4h2v4a2 2 0 0 1-2 2h-2v-4h-2v4h-2a2 2 0 0 1-2-2v-4z"/></svg>
+            </div>
+            <div class="feature-content">
+                <h2>2. Extensible Plugin Architecture</h2>
+                <ul>
+                    <li>Over 1,800 plugins for integrating with tools and platforms.</li>
+                    <li>Support for source control, build tools, cloud providers, and more.</li>
+                    <li>Custom plugin development possible.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="feature-icon">
+                <!-- Distributed Icon -->
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#204080"><path d="M17 16v-2a3 3 0 0 0-6 0v2H5v2h14v-2zm-3-4a1 1 0 1 1-1 1 1 1 0 0 1 1-1zm-7-2a2 2 0 1 1 2-2 2 2 0 0 1-2 2zm14 0a2 2 0 1 1 2-2 2 2 0 0 1-2 2z"/></svg>
+            </div>
+            <div class="feature-content">
+                <h2>3. Distributed Builds</h2>
+                <ul>
+                    <li>Master-agent architecture for scalable build execution.</li>
+                    <li>Run jobs on multiple machines and environments.</li>
+                    <li>Efficient resource utilization and parallelization.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="feature-icon">
+                <!-- Pipeline Icon -->
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#204080"><rect x="3" y="11" width="18" height="2"/><rect x="7" y="15" width="10" height="2"/><rect x="7" y="7" width="10" height="2"/></svg>
+            </div>
+            <div class="feature-content">
+                <h2>4. Pipeline as Code</h2>
+                <ul>
+                    <li>Declarative and scripted pipelines using Jenkinsfile.</li>
+                    <li>Version control integration for pipeline definitions.</li>
+                    <li>Complex workflows, approvals, and automation logic.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="feature-icon">
+                <!-- CI/CD Icon -->
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#204080"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+            </div>
+            <div class="feature-content">
+                <h2>5. Continuous Integration & Continuous Delivery (CI/CD)</h2>
+                <ul>
+                    <li>Automated build, test, and deployment processes.</li>
+                    <li>Integration with popular testing and deployment tools.</li>
+                    <li>Support for rolling updates, blue-green deployments, and more.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="feature-icon">
+                <!-- Security Icon -->
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#204080"><path d="M12 2a7 7 0 0 0-7 7v4a7 7 0 0 0 14 0V9a7 7 0 0 0-7-7zm0 16a5 5 0 0 1-5-5V9a5 5 0 0 1 10 0v4a5 5 0 0 1-5 5zm-1-7h2v3h-2zm0-4h2v2h-2z"/></svg>
+            </div>
+            <div class="feature-content">
+                <h2>6. Security & Access Control</h2>
+                <ul>
+                    <li>Role-based access control (RBAC).</li>
+                    <li>Integration with LDAP, Active Directory, and OAuth providers.</li>
+                    <li>Audit trails and credential management.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="feature-icon">
+                <!-- Monitoring Icon -->
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#204080"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/><circle cx="12" cy="12" r="3" fill="#fff"/></svg>
+            </div>
+            <div class="feature-content">
+                <h2>7. Monitoring & Reporting</h2>
+                <ul>
+                    <li>Real-time build status and logs.</li>
+                    <li>Customizable dashboards and views.</li>
+                    <li>Notifications via email, Slack, and other channels.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="feature-icon">
+                <!-- Community Icon -->
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="#204080"><circle cx="12" cy="8" r="4"/><path d="M2 20c0-4 8-6 10-6s10 2 10 6v2H2z"/></svg>
+            </div>
+            <div class="feature-content">
+                <h2>8. Community & Ecosystem</h2>
+                <ul>
+                    <li>Large, active open-source community.</li>
+                    <li>Regular updates and security patches.</li>
+                    <li>Extensive documentation and learning resources.</li>
+                </ul>
+            </div>
+        </section>
+        <footer style="text-align:center; margin-top:40px; color:#888;">
+            <p>&copy; 2024 Jenkins Features Overview</p>
+        </footer>
+    </main>
+</body>
+</html>
